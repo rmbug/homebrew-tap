@@ -4,17 +4,17 @@
 class RmbugAgent < Formula
   desc "rmBug Agent — secure identity-based database access"
   homepage "https://rmbug.com"
-  version "1.0.16"
+  version "1.0.17"
   license "Proprietary"
 
   on_macos do
     on_arm do
-      url "https://github.com/rmbug/agent/releases/download/v1.0.16/rmbug-agent_1.0.16_darwin_arm64.tar.gz"
-      sha256 "3dff7c6daffd75878c16176b4e87bc4d122ac10a0bee674d0639789b7acc2989"
+      url "https://github.com/rmbug/agent/releases/download/v1.0.17/rmbug-agent_1.0.17_darwin_arm64.tar.gz"
+      sha256 "d76381a2657a18e4023099defeaccff5049b335372b6dcfef6b7df40b4427d01"
     end
     on_intel do
-      url "https://github.com/rmbug/agent/releases/download/v1.0.16/rmbug-agent_1.0.16_darwin_amd64.tar.gz"
-      sha256 "c4c726bc39e1c7dbaaf3567bf6c5d0677a194d0632503bad29b4a7af847610c2"
+      url "https://github.com/rmbug/agent/releases/download/v1.0.17/rmbug-agent_1.0.17_darwin_amd64.tar.gz"
+      sha256 "3d704f9945bad8632b1805ed789b01fd92a6edd2b10f76e7c3815e67f80f3fbd"
     end
   end
 
